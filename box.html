@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+    }
+    .container__1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .container__devs {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="container__1">
+      <div class="container__1--text">
+        <h2>Ship your AI chatbot in just a few clicks</h2>
+        <p>Spin up a new project, or connect an existing, and explore rollbacks, CI/CD, edge functions, collaborative
+          deploy
+          previews, and more.</p>
+        <div class="container__1--buttons">
+          <div>
+            <button>Read the docs</button>
+          </div>
+          <div>
+            <button>Developer hub</button>
+          </div>
+        </div>
+      </div>
+      <div class="container__1--ecomm">
+        <h3>e-commerce site</h3>
+        <img src="/netlify/assets/img/code.png" alt="">
+        <button>Deploy to netlify</button>
+      </div>
+    </div>
+    <div class="container__devs">
+      <div class="container__devs--item1">
+        <h2>35M+</h2>
+        <h3>Websites deployed on Netlify</h3>
+      </div>
+      <div class="container__devs--item2">
+        <h2>4M+</h2>
+        <h3>Developers</h3>
+      </div>
+      <div class="container__devs--item3">
+        <h2>99.99%</h2>
+        <h3>Uptime SLA</h3>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
