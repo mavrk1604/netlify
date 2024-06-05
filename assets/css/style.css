@@ -42,6 +42,7 @@
 
 .navbar__links--list a:hover {
   border: #2e51ed 2px solid;
+  /* box-shadow: inset 2px #2e51ed solid; */
 }
 
 .navbar__user {
